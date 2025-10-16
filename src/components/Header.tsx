@@ -12,30 +12,14 @@ const Header = () => {
               <Activity className="h-6 w-6 text-white" />
             </div>
             <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              MediCare Pro
+              CarePad Pro
             </span>
           </div>
-          
-          {/* Navigation */}
-          <div className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Features
-            </a>
-            <a href="#benefits" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Benefits
-            </a>
-            <a href="#pricing" className="text-sm font-medium text-foreground hover:text-primary transition-colors">
-              Pricing
-            </a>
-          </div>
-          
+
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="sm" className="hidden sm:flex">
               Sign In
-            </Button>
-            <Button size="sm" className="shadow-sm">
-              Get Started
             </Button>
           </div>
         </div>
