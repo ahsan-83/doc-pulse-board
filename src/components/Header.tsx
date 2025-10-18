@@ -21,6 +21,9 @@ const Header = () => {
             <Button variant="ghost" size="sm" className="hidden sm:flex">
               Sign In
             </Button>
+            <Button size="sm">
+              Get Started
+            </Button>
           </div>
         </div>
       </nav>
