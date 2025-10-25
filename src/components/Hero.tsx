@@ -43,7 +43,7 @@ const Hero = () => {
                 <Button size="lg" variant="outline" className="shadow-sm">
                   User Guide
                 </Button>
-                <Button size="lg" variant="secondary" className="shadow-sm">
+                <Button size="lg" variant="secondary" className="shadow-sm border-2 border-black hover:bg-black hover:text-white transition-colors">
                   Place Order
                 </Button>
               </div>
