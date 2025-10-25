@@ -43,6 +43,9 @@ const Hero = () => {
                 <Button size="lg" variant="outline" className="shadow-sm">
                   User Guide
                 </Button>
+                <Button size="lg" variant="secondary" className="shadow-sm">
+                  Place Order
+                </Button>
               </div>
             </div>
 
